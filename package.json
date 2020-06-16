@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node server/index.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server/index.js"
+    "start": "NODE_ENV=production node server/index.js",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.8.2",
