@@ -1,0 +1,24 @@
+.contact{
+    background-color: #233143 !important;
+    .contact-title {
+        width: 500px;
+        margin: 20px 0px 30px;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .contact-text{
+        margin-left: 40px;
+
+        .contact-item {
+            margin: 25px 0px;
+            font-size: 18px;
+            color: white;
+            i {
+                padding-right: 10px;
+            }
+        }
+    }
+
+}
