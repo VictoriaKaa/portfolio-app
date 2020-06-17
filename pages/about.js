@@ -58,10 +58,10 @@ class About extends React.Component {
                 <div className="about-desc-item">
                   <div>ADDITIONAL</div>
                   <ul>
-                    <li>actively working for self-learning</li>
+                    <li>actively self-educating</li>
                     <li>learning new frameworks / libraries</li>
                     <li>English pre-intermediate level, but I'm improving</li>
-                    <li>I'm programming since 2013</li>
+                    <li>developer since 2013</li>
                   </ul>
                 </div>
               </div>
