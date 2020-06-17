@@ -20,5 +20,5 @@ export default function AnimatedBackground(props) {
     reset: true,
   })
   return <div className="star-box">
-      {items.map((i, index) => <animated.div key={index} className="script-bf-box" style={{ transform: radians.interpolate(interp(i)) }} />)}</div>
+      {items.map((i, index) => <animated.div key={index} className={`script-bf-box ${props.className}`} style={{ transform: radians.interpolate(interp(i)) }} />)}</div>
 }

@@ -12,7 +12,7 @@ class About extends React.Component {
         {...this.props.auth}
       >
         <BasePage className="about-page">
-          <AnimatedBackground />
+          <AnimatedBackground className="animated-bc" />
           <h1 className="title fadein">Welcome</h1>
           <h4 className="subtitle fadein">To About Page</h4>
           <p className="subsubTitle fadein">
@@ -66,8 +66,10 @@ class About extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col className="about-tech">
-              <div className="about-tech-item">
+          </Row>
+            
+          <Row className="about-tech">
+              <Col md="4 auto" className="about-tech-item">
                 <div className="about-tech-title">LANGUAGES</div>
                 <ul>
                   <li>HTML5</li>
@@ -76,8 +78,8 @@ class About extends React.Component {
                   <li>Basic knowledge of Java, C++</li>
                   <li>Basic knowledge of mysql</li>
                 </ul>
-              </div>
-              <div className="about-tech-item">
+              </Col>
+              <Col md="4" className="about-tech-item">
                 <div className="about-tech-title">FRAMEWORKS & LIBS</div>
                 <ul>
                   <li>React</li>
@@ -86,16 +88,16 @@ class About extends React.Component {
                   <li>Bootstrap</li>
                   <li>SCSS</li>
                 </ul>
-              </div>
-              <div className="about-tech-item">
+              </Col>
+              <Col md="4" className="about-tech-item">
                 <div className="about-tech-title">ADDITIONAL</div>
                 <ul>
                   <li>Git</li>
                   <li>Webpack</li>
                 </ul>
-              </div>
-            </Col>
-          </Row>
+              </Col>
+              </Row>
+            
         </BasePage>
       </BaseLayout>
     );

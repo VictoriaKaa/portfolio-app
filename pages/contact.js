@@ -10,7 +10,7 @@ class Contact extends React.Component {
     return (
       <BaseLayout {...this.props.auth}>
         <BasePage title="My contacts" className="contact">
-          <AnimatedBackground />
+          <AnimatedBackground className="animated-bc" />
           <Row>
             <Col md={{size:8, offset: 2}}>
               <div className="contact-title">For any enquiries, or just to say hello, get in touch and contact me.</div>

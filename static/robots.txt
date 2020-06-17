@@ -1,5 +1,3 @@
 User-agent *
 Disallow: /blogs/blogeditor
 Disallow: /blogs/*/edit
-Disallow: /portfolio/*/edit
-Disallow: /portfolioNew

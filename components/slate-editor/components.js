@@ -39,6 +39,24 @@ export const Icon = React.forwardRef(({ className, ...props }, ref) => (
   />
 ))
 
+export const Menu = React.forwardRef(({ className, ...props }, ref) => (
+  <div
+    {...props}
+    ref={ref}
+    className={cx(
+      className,
+      css`
+        & > * {
+          display: inline-block;
+        }
+        & > * + * {
+          margin-left: 15px;
+        }
+      `
+    )}
+  />
+))
+
 
 export const Toolbar = React.forwardRef(({ className, ...props }, ref) => (
   <Menu

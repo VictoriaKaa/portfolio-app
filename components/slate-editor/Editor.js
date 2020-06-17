@@ -20,9 +20,7 @@ const HOTKEYS = {
 const LIST_TYPES = ['numbered-list', 'bulleted-list']
 
 const SlateEditor = (props) => {
-  // const html = props.initialValue ? props.initialValue : `<p>hi</p>`
   const document = process.browser && props.initialValue ? new DOMParser().parseFromString(props.initialValue, 'text/html') : ""
-  // const document = process.browser && props.initialValue ? new DOMParser().parseFromString(html, 'text/html') : ""
   const firstValue = document ? deserialize(document.body) : initialValue;
   const [value, setValue] = useState(firstValue)
   const renderElement = useCallback(props => <Element {...props} />, [])

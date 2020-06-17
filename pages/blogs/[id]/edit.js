@@ -27,8 +27,7 @@ class BlogEditorUpdate extends React.Component {
     super(props)
 
     this.state = {
-      isLoading: false,
-      error: undefined
+      isLoading: false
     }
 
     this.updateBlog = this.updateBlog.bind(this)
@@ -45,11 +44,11 @@ class BlogEditorUpdate extends React.Component {
     updateBlog(blog, this.props.blog._id)
     .then(blog => {
       toast.success('Blog saved succesfully')
-      this.setState({isLoading: false, error: undefined})
+      this.setState({isLoading: false})
     })
     .catch((err) => { 
       const error = err.message || 'Server error'
-      this.setState({isLoading: false, error})
+      this.setState({isLoading: false})
       toast.error("Unexpected Error, copy your progress and refresh browser please.")
       console.log(error)
     })

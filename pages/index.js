@@ -47,7 +47,6 @@ class Index extends React.Component {
                         loopCount={0}
                         showCursor
                         cursorChar="|"
-                        // attr="placeholder"
                         className="self-typed"
                         loop
                       ></Typed>
@@ -57,16 +56,12 @@ class Index extends React.Component {
                   <div className="welcome-bio">
                     <h2>
                       I'm a web developer and programmer living in Minsk,
-                      Belarus.{" "}
+                      Belarus.
                     </h2>
                   </div>
                 </Col>
               </Row>
             </Container>
-            <span className="service-link">
-              Illustration credit:{" "}
-              <a href="https://www.unsplash.com/">unsplash.com</a>
-            </span>
           </div>
         </BaseLayout>
       </>

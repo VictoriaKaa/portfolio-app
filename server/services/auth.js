@@ -3,11 +3,10 @@ const jwksRsa = require('jwks-rsa');
 
 const config = require('../config')
 const NAMESPACE = config.NAMESPACE
-// const NAMESPACE = process.env.NAMESPACE
-// middleware
+
 exports.checkJWT = jwt({
     secret: jwksRsa.expressJwtSecret({
-        cache: true, // Default Value
+        cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 60,
         jwksUri: 'https://dev-gfgnub9u.eu.auth0.com/.well-known/jwks.json'

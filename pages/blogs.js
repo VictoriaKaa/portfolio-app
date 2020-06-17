@@ -43,7 +43,6 @@ class Blogs extends React.Component {
                   <a>Read more</a>
                 </Link>
               </Button>
-            {/* <div className="divide-line"></div> */}
           </div>
         ))
       }
@@ -74,13 +73,13 @@ class Blogs extends React.Component {
               {
                 this.renderBlogs(blogs)
               }
-              <div className="clearfix">
+              {/* <div className="clearfix">
                 <a className="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-              </div>
+              </div> */}
             </Col>
-          </Row>
+          </Row> 
 
-          <footer>
+          {/* <footer>
             <Container>
               <Row>
                 <div className="col-lg-8 col-md-10 mx-auto">
@@ -107,13 +106,13 @@ class Blogs extends React.Component {
                 </div>
               </Row>
             </Container>
-          </footer>
+          </footer> */}
           </BasePage>
-        <style jsx>
+        {/* <style jsx>
           {`
             @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
           `}
-        </style>
+        </style> */}
       </BaseLayout>
     );
   }

@@ -7,8 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/main.scss"
 import 'react-toastify/dist/ReactToastify.css';
 
-// const namespace = 'http://localhost:3000'
-
 class MyApp extends App {
 
     static async getInitialProps({ Component, router, ctx }) {

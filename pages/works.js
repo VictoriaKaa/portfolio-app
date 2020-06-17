@@ -9,7 +9,7 @@ class Works extends React.Component {
     return (
       <BaseLayout {...this.props.auth}>
         <BasePage title="Work" className="work">
-          <AnimatedBackground />
+          <AnimatedBackground className="animated-bc" />
           <Row>
             <Col className="work-page">
               <ul>

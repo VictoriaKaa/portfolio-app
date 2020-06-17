@@ -9,8 +9,8 @@ class blogDetail extends React.Component {
 
   static async getInitialProps({query}) {
     let blog = {}
-    const slug = query.id  
-    console.log(slug)
+    const slug = query.id
+    
     try {
       blog = await getBlogBySlug(slug)
     } catch(err) {

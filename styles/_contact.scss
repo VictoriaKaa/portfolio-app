@@ -1,5 +1,7 @@
 .contact{
     background-color: #233143 !important;
+    min-height: 100vh !important;
+
     .contact-title {
         width: 500px;
         margin: 20px 0px 30px;
@@ -22,3 +24,15 @@
     }
 
 }
+
+@media (max-width: 400px) {
+    .contact {
+        .contact-title {
+            width: 90%;
+        }
+        .contact-item {
+            font-size: 15px;
+        }
+    }
+  }
+  
