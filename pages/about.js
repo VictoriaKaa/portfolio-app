@@ -2,7 +2,6 @@ import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
 import BasePage from "../components/BasePage";
 import { Row, Col } from "reactstrap";
-import AnimatedBackground from "../components/AnimatedBackground";
 
 class About extends React.Component {
   render() {
@@ -11,8 +10,11 @@ class About extends React.Component {
         title="Victoria Klimova - Learn More About Me"
         {...this.props.auth}
       >
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
         <BasePage className="about-page">
-          <AnimatedBackground className="animated-bc" />
+          {/* <AnimatedBackground className="animated-bc" /> */}
           <h1 className="title fadein">Welcome</h1>
           <h4 className="subtitle fadein">To About Page</h4>
           <p className="subsubTitle fadein">

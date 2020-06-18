@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
 import { useSpring, animated } from 'react-spring'
-import AnimatedBackground from './AnimatedBackground'
 
 const BasePage = (props) => {
   const { className, title } = props;

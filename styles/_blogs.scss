@@ -5,7 +5,7 @@
   
     .blog-body {
       padding: 50px 0 0 0;
-      background-color: #ecedee !important;
+      background: #ecedee !important;
     }
   
     .post-preview {
@@ -56,7 +56,25 @@
   
     // Styling for the footer
     footer {
+      margin-top: 80px;
       padding: 50px 0 65px;
+      font-size: 14px;
+      border-top: 1px solid #090040;
+      
+      .row {
+        padding-left: 50%;
+      }
+      .footer-link-title {
+        font-weight: bold;
+        padding-bottom: 10px;
+      }
+      .footer-link-item{
+        padding-left: 20px;
+        text-decoration: none;
+        a {
+          color: black
+        }
+      }
       .list-inline {
         margin: 0;
         padding: 0;
@@ -82,7 +100,7 @@
       height: 100%;
       width: 100%;
       background-color: $gray-900;
-      opacity: 0.5;
+      opacity: 0.3;
     }
     .page-heading,
     .post-heading,
@@ -152,7 +170,8 @@
   // BLOG EDITOR PAGE
   
   .blog-editor-body .blog-editor-page, .blog-detail-base-page .blog-detail-page {
-    background-color: white !important;
+    background: white !important;
+    min-height: 100vh !important;
   }
   .blog-editor-page, .blog-detail-page {
   
@@ -182,8 +201,11 @@
   // USER_BLOGS --------------------------------------
   .base-page {
     &.blog-user-page {
-      padding-top: 50px;
-      background-color: white !important;
+      padding: 50px 0px 0px;
+      background: white !important;
+      .blog-user-row{
+        padding-bottom: 50px;
+      }
   
   
       .user-blogs-list {

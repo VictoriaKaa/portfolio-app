@@ -8,6 +8,9 @@
 @import './contact';
 @import './works';
 
+
+@import './stars.scss';
+
 //COMPONENTS
 @import './header';
 @import './slate-editor';
@@ -40,7 +43,10 @@ html, body {
 .base-page {
     padding: 150px 0 100px 0;
     color: black;
-    background-color: #233143 !important;
+    // background-color: #233143 !important;
+   
+    background: radial-gradient(circle at bottom, rgba(105,183,255,1) 0%, rgba(0,63,120,1) 40%, rgba(9,0,64,1) 88%); 
+    overflow: hidden;
     min-height: 50vh;
   
     .page-header {
@@ -52,3 +58,7 @@ html, body {
       }
     }
 }
+
+.layout-container {
+    overflow: hidden;
+  }

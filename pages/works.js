@@ -2,14 +2,16 @@ import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
 import BasePage from "../components/BasePage";
 import { Row, Col } from "reactstrap";
-import AnimatedBackground from "../components/AnimatedBackground";
 
 class Works extends React.Component {
   render() {
     return (
       <BaseLayout {...this.props.auth}>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
         <BasePage title="Work" className="work">
-          <AnimatedBackground className="animated-bc" />
+          {/* <AnimatedBackground className="animated-bc" /> */}
           <Row>
             <Col className="work-page">
               <ul>

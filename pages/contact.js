@@ -2,15 +2,16 @@ import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
 import BasePage from "../components/BasePage";
 import { Row, Col } from "reactstrap";
-import AnimatedBackground from '../components/AnimatedBackground'
 
 class Contact extends React.Component {
 
   render() {
     return (
       <BaseLayout {...this.props.auth}>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
         <BasePage title="My contacts" className="contact">
-          <AnimatedBackground className="animated-bc" />
           <Row>
             <Col md={{size:8, offset: 2}}>
               <div className="contact-title">For any enquiries, or just to say hello, get in touch and contact me.</div>
@@ -22,12 +23,12 @@ class Contact extends React.Component {
               </div>
             </Col>
           </Row>
-        </BasePage>
-        <style jsx>
-          {`
-            @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
-          `}
-        </style>
+      </BasePage>
+         <style jsx>
+           {`
+             @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+           `}
+         </style>
       </BaseLayout>
     );
   }

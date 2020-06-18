@@ -94,7 +94,7 @@ class UserBlogs extends React.Component {
     return (
         <BaseLayout {...this.props.auth} headerType={'landing'}
         className="blog-listing-page">
-          <div className="masthead" style={{"backgroundImage": "url('/static/images/autumn3.jpg')"}}>
+          <div className="masthead" style={{"backgroundImage": "url('/static/images/blog-2-min.jpg')"}}>
             <div className="overlay"></div>
             <Container>
               <div className="row">
@@ -112,7 +112,7 @@ class UserBlogs extends React.Component {
             </Container>
           </div>
           <BasePage className="blog-user-page">
-            <Row>
+            <Row className="blog-user-row">
                 <Col md="6" className="mx-auto text-center">
                     <h2 className="blog-status-title">Published Blogs </h2>
                     {this.renderBlogs(published)}
@@ -122,6 +122,31 @@ class UserBlogs extends React.Component {
                     {this.renderBlogs(drafts)}
                 </Col>
             </Row>
+
+            <footer>
+            <Container>
+              <Row>
+                <div className="col-md-6">
+                  <div className="footer-link-title">CONTACT</div>
+                    <div className="footer-link-item">+375 29 108 06 71</div>
+                    <div className="footer-link-item">victoriaklimova96@gmail.com</div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="footer-link-title">SOCIAL</div>
+                      <div className="footer-link-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/victoria-klimova-438ba31a2/">
+                          linkedin
+                        </a>
+                      </div>
+                      <div className="footer-link-item">
+                        <a target="_blank" href="https://github.com/VictoriaKaa">
+                          github
+                        </a>
+                      </div>
+                  </div>
+              </Row>
+            </Container>
+          </footer>
           </BasePage>
         </BaseLayout>
     );

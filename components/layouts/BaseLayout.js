@@ -24,6 +24,7 @@ const BaseLayout = (props) => {
       <link rel="icon" type="image/ico" href="/static/favicon.ico" />
       </Head>
         <div className="layout-container" >
+          
           <Header className={`port-nav-${headerType}`} isAuthenticated={isAuthenticated} user={user} isSiteOwner={isSiteOwner} />
           <main className={`cover ${className}`}>
             <div className="wrapper">
