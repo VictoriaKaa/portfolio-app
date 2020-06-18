@@ -27,7 +27,7 @@ class Index extends React.Component {
     return (
       <>
         <BaseLayout
-          className="cover cover-1"
+          className="cover"
           {...this.props.auth}
           headerType="index"
           title="Victoria Klimova"
