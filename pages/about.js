@@ -2,7 +2,7 @@ import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
 import BasePage from "../components/BasePage";
 import { Row, Col } from "reactstrap";
-import { Link } from '../routes'
+import { Link } from "../routes";
 
 class About extends React.Component {
   render() {
@@ -15,12 +15,8 @@ class About extends React.Component {
         <div id="stars2"></div>
         <div id="stars3"></div>
         <BasePage className="about-page">
-          {/* <AnimatedBackground className="animated-bc" /> */}
           <h1 className="title fadein">Welcome</h1>
           <h4 className="subtitle fadein">To About Page</h4>
-          <p className="subsubTitle fadein">
-            <strike>Feel free to read short description about me.</strike>
-          </p>
           <Row className="mt-5">
             <Col md="4">
               <div className="left-side">
@@ -46,7 +42,7 @@ class About extends React.Component {
                   </ul>
                 </div>
                 <div className="about-desc-item">
-                  <div>JOB</div>
+                  <div>EXPERIENCE</div>
                   <ul>
                     <li>
                       I was a system analyst for OJSC "AGAT - Control Systems"
@@ -54,17 +50,20 @@ class About extends React.Component {
                       scientific and technical conference of young specialists.
                     </li>
                     <li>Freelance experience (HTML coding)</li>
-                    <li>Developed some {' '}
-                      <Link route="/works"><a>projects</a></Link>
-                      </li>
+                    <li>
+                      Developed some{" "}
+                      <Link route="/works">
+                        <a>projects</a>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 <div className="about-desc-item">
-                  <div>ADDITIONAL</div>
+                  <div>SKILLS</div>
                   <ul>
                     <li>actively self-educating</li>
                     <li>learning new frameworks / libraries</li>
-                    <li>looking forward to new ideas/projects</li>
+                    <li>looking forward to new ideas</li>
                     <li>English pre-intermediate level, but I'm improving</li>
                     <li>developer since 2013</li>
                   </ul>
