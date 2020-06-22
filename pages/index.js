@@ -38,7 +38,7 @@ class Index extends React.Component {
                 <Col md="12" xs="auto" className="welcome-wrapper">
                   <div className="welcome-title">
                     <h1>
-                      I'm Victoria Klimova. <br />
+                      Hello, I'm Victoria Klimova. <br />
                       <Typed
                         strings={this.roles}
                         typeSpeed={60}
