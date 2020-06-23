@@ -64,7 +64,7 @@ class About extends React.Component {
                     <li>actively self-educating</li>
                     <li>learning new frameworks / libraries</li>
                     <li>looking forward to new ideas</li>
-                    <li>English pre-intermediate level, but I'm improving</li>
+                    <li>English intermediate level</li>
                     <li>developer since 2013</li>
                   </ul>
                 </div>
