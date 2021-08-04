@@ -55,6 +55,6 @@
     "slate-hyperscript": "^0.58.3",
     "slate-react": "^0.58.3",
     "slugify": "^1.4.0",
-    "xmldom": "^0.3.0"
+    "xmldom": "^0.6.0"
   }
 }
