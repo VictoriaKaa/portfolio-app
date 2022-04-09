@@ -34,7 +34,7 @@
     "jwks-rsa": "^1.8.0",
     "konva": "^6.0.0",
     "lodash-es": "^4.17.15",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.16",
     "next": "9.3.5",
     "next-routes": "^1.4.2",
