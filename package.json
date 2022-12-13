@@ -22,7 +22,7 @@
     "dom-parser": "^0.1.6",
     "emotion": "^10.0.27",
     "escape-html": "^1.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-jwt": "^5.3.3",
     "fontfaceobserver": "^2.1.0",
     "formik": "^2.1.4",
