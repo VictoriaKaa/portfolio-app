@@ -30,7 +30,7 @@
     "immutable": "^4.0.0-rc.12",
     "js-cookie": "^2.2.1",
     "jsdom": "^16.2.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "jwks-rsa": "^1.8.0",
     "konva": "^6.0.0",
     "lodash-es": "^4.17.15",
